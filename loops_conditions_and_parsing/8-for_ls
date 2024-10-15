@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Displays content of the current directory, in a list format, and only part of the name
+
+for file in *
+do
+	echo "${file#*-}"
+done
