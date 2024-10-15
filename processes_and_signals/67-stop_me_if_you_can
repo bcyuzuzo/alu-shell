@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Stop 7_highlander
+
+pkill -f "7-highlander"
